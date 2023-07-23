@@ -43,15 +43,6 @@ h3 {
     margin: 32px 0 0 32px;
 }
 
-h4 {
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 23px; 
-    letter-spacing: 0.09px; 
-    opacity: 0.5; 
-    margin: 6px 32px;
-}
-
 h5 {
     font-weight: 600;
     font-size: 15px;
@@ -61,6 +52,15 @@ h5 {
     margin-top: 13px;
 }
 
+p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px; 
+    letter-spacing: 0.09px; 
+    opacity: 0.5; 
+    margin: 6px 32px;
+}
+
 .clearfix::after {
     content: '';
     clear: both;
@@ -68,20 +68,10 @@ h5 {
 }
 
 header {
-    width: 1110px;
+    width: 100%;
     height: 168px;
-    margin: 80px 165px;
+    margin: 80px auto 0;
     text-align: center;
-}
-
-img {
-    width: 64px;
-    height: 64px;
-    position: absolute; 
-    top: 154px;
-    right: 32px;
-    bottom: 32px;
-    left: 254px;
 }
 
 .header {
@@ -90,49 +80,67 @@ img {
 }
 
 .container {
-    width: 1110px;
+    width: 100%;
     height: 530px; 
-    margin: 64px 165px;
+    margin: 64px auto;
     display: grid;
     align-items: center;
+    justify-content: center;
+    gap: 30px;
     grid-template-areas: 
     "Supervisor team Calculator"
     "Supervisor Karma Calculator"
     ;
 }
 
-.cards {
+.card {
     position: relative;
     width: 350px;
     height: 250px;
     border-radius: 8px;
-    background: #FFF;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
-    border-top: 4px var(--main-green) solid;
+
 }
 
 .Supervisor {
+    background: url(img/search.svg) no-repeat right 32px bottom 32px #fff;
     grid-area: Supervisor;
+    border-top: 4px var(--main-green) solid;
 }
 
 .team {
     border-top: 4px var(--main-red) solid;
     grid-area: team;
-
+    background: url(img/homepage.svg) no-repeat right 32px bottom 32px #fff;
 } 
 
 .Karma {
     border-top: 4px var(--main-orang) solid;
     grid-area: Karma;
-
+    background: url(img/idea.svg) no-repeat right 32px bottom 32px #fff;
 }
 
 .Calculator{
     border-top: 4px var(--main-blue) solid;
     grid-area: Calculator;
+    background: url(img/software.svg) no-repeat right 32px bottom 32px #fff;
 }
+
+
+/* responsive styles for tablet devices*/
+@media screen and (max-width:1130px){
+
+    .container {
+        grid-template-areas:
+        "Supervisor Karma"
+        "team Calculator";
+        gap: 25px;
+    }
+}
+
+
 /* responsive styles for mobile devices*/
-@media screen and (max-width:576px){
+@media screen and (max-width:750px){
 
     header{
         height: 161px;
@@ -164,7 +172,6 @@ img {
     .container {
         width: 311px;
         height: auto;
-        margin: 76px auto;
         padding-top: 76px;
         grid-template-areas:
         "Supervisor"
