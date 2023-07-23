@@ -9,7 +9,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://sadafes.github.io/FourCard/)
+
+- Live Site URL: https://sadafes.github.io/FourCard/
 
 
 ### Built with
