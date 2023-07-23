@@ -99,31 +99,68 @@ header {
     height: 250px;
     border-radius: 8px;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    overflow: hidden;
 
 }
 
 .Supervisor {
     background: url(img/search.svg) no-repeat right 32px bottom 32px #fff;
     grid-area: Supervisor;
-    border-top: 4px var(--main-green) solid;
+}
+
+.Supervisor::after {
+    content: '';
+    height: 4px;
+    background: var(--main-green);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .team {
-    border-top: 4px var(--main-red) solid;
     grid-area: team;
     background: url(img/homepage.svg) no-repeat right 32px bottom 32px #fff;
 } 
 
+.team::after {
+    content: '';
+    height: 4px;
+    background: var(--main-red);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 .Karma {
-    border-top: 4px var(--main-orang) solid;
     grid-area: Karma;
     background: url(img/idea.svg) no-repeat right 32px bottom 32px #fff;
 }
 
-.Calculator{
-    border-top: 4px var(--main-blue) solid;
+.Karma::after {
+    content: '';
+    height: 4px;
+    background: var(--main-orang);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.Calculator {
     grid-area: Calculator;
     background: url(img/software.svg) no-repeat right 32px bottom 32px #fff;
+}
+
+.Calculator::after {
+    content: '';
+    height: 4px;
+    background: var(--main-blue);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 
