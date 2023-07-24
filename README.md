@@ -7,16 +7,19 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshots
-- desktop view : ![desktop](https://github.com/sadafes/FourCard/assets/139676139/226daa0f-df86-4aba-9a72-075887bda944)
-- tablet view: ![tablet](https://github.com/sadafes/FourCard/assets/139676139/b176427f-908a-4224-874f-3ad81428d1de)
-- mobile view: ![mobile1](https://github.com/sadafes/FourCard/assets/139676139/0d8ad41e-4ae2-44b2-be7d-a56d7c9a37ea)
-              ![mobile2](https://github.com/sadafes/FourCard/assets/139676139/7bc6c4f1-8e39-464c-afaa-f7dbe75251fd)
+- desktop view : 
+![desktop](https://github.com/sadafes/FourCard/assets/139676139/226daa0f-df86-4aba-9a72-075887bda944)
+- tablet view:
+![tablet](https://github.com/sadafes/FourCard/assets/139676139/b176427f-908a-4224-874f-3ad81428d1de)
+- mobile view: 
+![mobile1](https://github.com/sadafes/FourCard/assets/139676139/0d8ad41e-4ae2-44b2-be7d-a56d7c9a37ea)
+![mobile2](https://github.com/sadafes/FourCard/assets/139676139/7bc6c4f1-8e39-464c-afaa-f7dbe75251fd)
 
 
 ### Links
 
 
-- Live Site URL: https://sadafes.github.io/FourCard/
+[Live Site URL](https://sadafes.github.io/FourCard/)
 
 
 ### Built with
